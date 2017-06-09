@@ -1,0 +1,25 @@
+<h3>app works</h3>
+<p>{{value}}</p>
+<p>取到小數第{{ format}}位 = {{value | fix: format}}</p>
+請輸入取到小數第幾位:
+<input id="name" type="number" min="0" [(ngModel)]="format" />
+
+<hr>
+<app-compo1></app-compo1>
+<hr>
+<app-compo2></app-compo2>
+<hr>
+<p>Step：</p>
+<ol class="list">
+  <li>Add (fix.pipie) to (pipe.module)</li>
+  <ul>
+    <li>(pipe.module) can be add more pipe ...ect</li>
+  </ul>
+  <li>Add (pipe.module) to (app.module)</li>
+  <li>Use (pipe) in global</li>
+  <ul>
+    <li>App(RootComponent)</li>
+    <li>Com1(Component1)</li>
+    <li>Com2(Component2)</li>
+  </ul>
+</ol>
