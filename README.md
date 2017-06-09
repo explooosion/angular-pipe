@@ -18,6 +18,7 @@ app
 ├── app.component.html
 ├── app.component.ts
 └── app.module.ts
+```  
   
 ## Install
 ```bash
